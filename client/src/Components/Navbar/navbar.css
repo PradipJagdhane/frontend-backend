@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  .logout-button {
+    position: absolute;
+   right: 0;
+  }
+}
+
+
+
+/* Media query for larger screens */
+/* @media (min-width: 992px) {
+  .logout-button {
+    position: absolute; 
+     right: "10px"; 
+  }
+} */
+
+@media (max-width: 992px){
+.logout-button{
+  right: 0;
+}
+}

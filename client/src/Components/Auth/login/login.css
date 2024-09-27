@@ -1,0 +1,148 @@
+/* body{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+} */
+
+h1 {
+  font-family: "Segoe UI", bold;
+  font-size: 35px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: inline-block;
+  align-items: center;
+  height: 270px;
+  width: 350px;
+  margin-bottom: 120px;
+}
+
+.text_area {
+  align-content: center;
+  border-radius: 22px;
+  margin-bottom: 11px;
+  margin-top: 20px;
+  width: 100%;
+  height: 64px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text_area label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333; /* Text color for the label */
+  margin-bottom: 8px; /* Spacing between label and input */
+}
+
+
+
+.text_input {
+  padding: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  border: none; /* Light gray border */
+  border-radius: 8px; /* Smooth rounded corners */
+  width: 100%; /* Full width input */
+  box-sizing: border-box; /* Ensure padding and width behave properly */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for focus effects */
+}
+
+.text_input:focus {
+  outline: none;
+}
+
+.btn {
+  margin-top: 22px;
+  width: 165px;
+  height: 60px;
+  border-radius: 30px !important;
+  background: #b58ded;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(181, 141, 237, 0.7),
+    0 6px 20px 0 rgba(181, 141, 237, 0.9);
+  cursor: pointer;
+  padding: 0;
+}
+
+button.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 30px !important;
+  background: #b58ded;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.main-div {
+  /* display: inline-block; */
+  padding-top: 2em;
+  background: #ffffff;
+  width: 29em;
+  height: 32rem;
+  margin-top: 5%;
+  float: left;
+  margin-left: 60px;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sign {
+  color: #0e4579;
+  font-family: "Montserrat light";
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.toggle-btn{
+  color: #0e4579;
+  font-family: "Montserrat light";
+  font-size: 18px;
+  cursor: pointer;
+  /* display: block; */
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+.main-div {
+  transition: transform 0.9s ease-in-out;
+}
+
+.slide-in {
+  transform: translateX(20);
+}
+
+.slide-out {
+  transform: translateX(100%);
+  
+}
+
+.signup-div {
+  transform: translateX(-100%);
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
